@@ -1,0 +1,118 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Futura', bold;
+}
+
+p {
+    font-family: 'Hind', sans-serif;
+}
+
+.header {
+    padding: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 30px;
+    font-family: 'Futura', bold;
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.footer-text {
+    padding-top: 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Futura', bold;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-left: 30px;
+    padding-right: 30PX;
+    padding-top: 30PX;
+    padding-bottom: 30PX;
+}
+
+h1, h2 {
+    font-size: 50px;
+    word-break: break-all;
+    font-family: 'Futura', bold;
+}
+
+.row {
+    margin: 10px -20px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 5px;
+    align-content: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .column {
+        width: 90%;
+    }
+}
+
+.button {
+    background-color: #ffe6ff;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-emphasis-colo;
+    r: black;
+}
+
+.button:hover {
+    background-color: #e6ffff;
+    text-decoration-color: white
+}
