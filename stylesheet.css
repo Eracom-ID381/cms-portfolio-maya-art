@@ -7,7 +7,7 @@ p {
 }
 
 .header {
-    padding: 60px;
+    padding: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
@@ -87,7 +87,7 @@ h1, h2 {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
     .column {
         width: 100%;
     }
@@ -96,23 +96,30 @@ h1, h2 {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
     .column {
-        width: 90%;
+        width: 100%;
     }
 }
 
 .button {
-    background-color: #ffe6ff;
+    background-color: black;
     border: none;
-    color: black;
-    padding: 15px 25px;
+    color: white;
+    padding: 10px 20px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    text-emphasis-colo;
-    r: black;
+    text-emphasis-color: black;
 }
 
 .button:hover {
-    background-color: #e6ffff;
+    background-color: #f2f2f2;
     text-decoration-color: white
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-text {
+    text-align: left;
 }
