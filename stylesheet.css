@@ -13,13 +13,14 @@ p {
     text-align: center;
     background: white;
     color: black;
-    font-size: 30px;
     font-family: 'Futura', bold;
+    font-size: 55px;
 }
 
 footer {
     padding-top: 25px;
     padding-bottom: 5px;
+    font-size: 55px;
 }
 
 .footer-text {
@@ -32,8 +33,8 @@ footer {
 
 body {
     background-color: white;
-    padding: 20px;
-    padding-left: 20px;
+    padding: 10px;
+    padding-left: 10px;
     padding-right: 20px;
     font-family: 'Futura', bold;
 }
@@ -51,7 +52,7 @@ body {
 }
 
 h1, h2 {
-    font-size: 50px;
+    font-size: 60px;
     word-break: break-all;
     font-family: 'Futura', bold;
 }
@@ -108,9 +109,9 @@ p {
     background-color: black;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 40px;
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
     cursor: pointer;
     text-emphasis-color: black;
 }
@@ -126,4 +127,9 @@ p {
 
 .card-text {
     text-align: left;
+}
+
+nav {
+    font-size: 20px;
+    font-family: 'Futura', bold;
 }
