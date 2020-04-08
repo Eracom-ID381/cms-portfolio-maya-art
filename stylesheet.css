@@ -1,20 +1,21 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Futura', bold;
+    font-size: 200px,
 }
 
 p {
     font-family: 'Hind', sans-serif;
+    font-size: 30px;
 }
 
 .header {
-    padding: 40px;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    margin-top: 280px;
+    margin-bottom: 250px;
     text-align: center;
     background: white;
     color: black;
     font-family: 'Futura', bold;
-    font-size: 55px;
+    font-size: 200px,
 }
 
 footer {
